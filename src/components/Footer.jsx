@@ -32,17 +32,17 @@ const Footer = () => {
 					<h3>Contact Us</h3>
 					<ul>
 						<li>
-							<a href=''>
+							<a href='!#' target='_blank' ref='noreferrer'>
 								<EmailIcon style={socialStyle} /> mumscare.patna@gmail.com
 							</a>
 						</li>
 						<li>
-							<a href=''>
+							<a href='!#' target='_blank' ref='noreferrer'>
 								<LocalPhoneIcon style={socialStyle} /> +91 093046 33740
 							</a>
 						</li>
 						<li>
-							<a href=''>
+							<a href='!#' target='_blank' ref='noreferrer'>
 								<PublicIcon style={socialStyle} /> Rajeshwar Complex, <br /> Shop No -
 								3,
 								<br /> Kankarbagh Main Road, <br /> Below Vishal Megha Mart, <br />{' '}
@@ -55,16 +55,28 @@ const Footer = () => {
 					<h3>Quick Links</h3>
 					<ul>
 						<li>
-							<a href=''>Brand</a>
+							<a href='!#' target='_blank' ref='noreferrer'>
+								{' '}
+								Brand
+							</a>
 						</li>
 						<li>
-							<a href=''>Brand</a>
+							<a href='!#' target='_blank' ref='noreferrer'>
+								{' '}
+								Brand
+							</a>
 						</li>
 						<li>
-							<a href=''>Brand</a>
+							<a href='!#' target='_blank' ref='noreferrer'>
+								{' '}
+								Brand
+							</a>
 						</li>
 						<li>
-							<a href=''>Brand</a>
+							<a href='!#' target='_blank' ref='noreferrer'>
+								{' '}
+								Brand
+							</a>
 						</li>
 					</ul>
 				</div>
