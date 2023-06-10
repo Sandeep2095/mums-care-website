@@ -1,10 +1,23 @@
+* {
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins:wght@200;400;600&display=swap');
+
+/* Starting of Navbar For Desktop */
+
+::-webkit-scrollbar {
+	display: none;
+}
+
 nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 25px;
 	background: skyblue;
-  border-bottom: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 .nav-links {
@@ -24,3 +37,79 @@ nav {
 .nav-right {
 	margin-left: 40px;
 }
+
+/* End of Navbar For Desktop */
+
+/* Starting of Footer */
+
+footer {
+	background: skyblue;
+}
+
+footer h3 {
+	color: #000;
+	text-transform: uppercase;
+	font-size: larger;
+	font-weight: 700;
+}
+
+footer h4 {
+	color: #000;
+	text-transform: uppercase;
+	font-size: larger;
+	font-weight: 700;
+}
+
+footer ul li a:hover {
+	color: yellow;
+}
+
+.f-2 ul {
+	padding: 0;
+}
+
+.f-2 ul li {
+	margin: 20px 0px 20px 0px;
+	display: flex;
+}
+
+.f-2 ul li a {
+	text-decoration: none;
+	color: #000;
+	display: flex;
+}
+
+.f-3 h3 {
+	margin-left: 50px;
+}
+
+.f-3 ul li {
+	margin: 20px;
+}
+
+.f-3 ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.f-4 h4,
+p {
+	margin-bottom: 20px;
+}
+
+.social-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-links ul li {
+	margin-right: 20px;
+}
+
+.social-links ul li:hover {
+	color: greenyellow;
+	cursor: pointer;
+}
+
+/* Ending of footer */
