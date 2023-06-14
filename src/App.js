@@ -6,6 +6,7 @@ import 'swiper/css';
 import Herosection from './components/herosection/Herosection';
 import Cards from './components/Cards';
 import PopularProducts from './components/popularproducts/PopularProducts';
+import GoTop from './components/GoTop';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Herosection />
 			<Cards />
 			<PopularProducts />
+			<GoTop />
 			<Footer />
 		</div>
 	);
