@@ -1,0 +1,38 @@
+[
+	{
+		"id": "1",
+		"name": "Baby Play Set",
+		"img": "../../assests/p1.webp",
+		"price": "500 Rs."
+	},
+	{
+		"id": "2",
+		"name": "Baby Play Set",
+		"img": "../../assests/p1.webp",
+		"price": "500 Rs."
+	},
+	{
+		"id": "3",
+		"name": "Baby Play Set",
+		"img": "../../assests/p1.webp",
+		"price": "500 Rs."
+	},
+	{
+		"id": "4",
+		"name": "Baby Play Set",
+		"img": "../../assests/p1.webp",
+		"price": "500 Rs."
+	},
+	{
+		"id": "5",
+		"name": "Baby Play Set",
+		"img": "../../assests/p1.webp",
+		"price": "500 Rs."
+	},
+	{
+		"id": "6",
+		"name": "Baby Play Set",
+		"img": "../../assests/p1.webp",
+		"price": "500 Rs."
+	}
+]

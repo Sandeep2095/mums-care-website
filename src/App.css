@@ -1,6 +1,7 @@
 * {
 	list-style: none;
 	font-family: 'Poppins', sans-serif;
+	user-select: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Poppins:wght@200;400;600&display=swap');
@@ -113,3 +114,7 @@ p {
 }
 
 /* Ending of footer */
+
+@media (max-width: '1100px') {
+	
+}
