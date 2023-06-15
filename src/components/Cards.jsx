@@ -9,7 +9,7 @@ const Cards = () => {
 				<div className='row py-5'>
 					<div className='col-md-6'>
 						<div className='card text-white position-relative border border-danger border-5'>
-							<img src={img1} alt='' className='card-img' />
+							<img src={img1} alt='cardImage' className='card-img' />
 							<div
 								className='card-img-overlay h-50 w-50 position-absolute start-50'
 								style={{ top: '80px' }}
@@ -25,7 +25,7 @@ const Cards = () => {
 					</div>
 					<div className='col-md-6'>
 						<div className='card text-white position-relative border border-primary border-5'>
-							<img src={img2} alt='' className='card-img' />
+							<img src={img2} alt='cardImage' className='card-img' />
 							<div
 								className='card-img-overlay h-50 w-50 position-absolute start-50'
 								style={{ top: '80px' }}
