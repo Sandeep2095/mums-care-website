@@ -34,7 +34,7 @@ const Cards = () => {
 									<h3
 										style={{ color: 'skyblue', fontSize: '33px', letterSpacing: '1.1px' }}
 									>
-										Baby Care <br /> Campaign Idea{' '}
+										Baby Care <br /> Campaign{' '}
 									</h3>
 									<button className='btn-warning text-dark-border-0 p-2'>
 										Shop Now
