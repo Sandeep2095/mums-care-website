@@ -1,7 +1,7 @@
 import React from 'react';
 import Data from './PPDATA.json';
 import './Products.css';
-import image1 from '../../assests/p1.webp';
+import p1 from '../../assests/p1.webp';
 
 const PopularProducts = () => {
 	return (
@@ -13,7 +13,7 @@ const PopularProducts = () => {
 						return (
 							<div className='col'>
 								<div className='card shadow-sm'>
-									<img src={image1} alt='Products Image' style={{ height: '300px' }} />
+									<img src={p1} alt='ProductsImage' style={{ height: '300px' }} />
 									<hr />
 
 									<div className='card-body text-center'>
