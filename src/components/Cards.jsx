@@ -35,9 +35,9 @@ const Cards = () => {
 							>
 								<h3
 									class='card-title card-Home-title'
-									style={{ color: 'skyblue', fontSize: '33px', letterSpacing: '1.1px' }}
+									style={{ color: 'skyblue', fontSize: '33px' }}
 								>
-									Baby Care <br /> <strong>Campaign Idea</strong>{' '}
+									Baby Care <br /> <strong>Campaign</strong>{' '}
 								</h3>
 								<button className='btn-warning text-dark-border-0 p-2'>Shop Now</button>
 							</div>
