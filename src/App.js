@@ -12,6 +12,7 @@ import Herosection from './components/herosection/Herosection';
 import Cards from './components/Cards';
 import PopularProducts from './components/popularproducts/PopularProducts';
 import GoTop from './components/GoTop';
+import Contact from './pages/Contact';
 
 function App() {
 	return (
@@ -29,6 +30,7 @@ function App() {
 							</>
 						}
 					/>
+					<Route path='/contactus' element={<Contact />} />
 				</Routes>
 
 				<GoTop />

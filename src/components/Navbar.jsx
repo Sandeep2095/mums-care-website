@@ -163,7 +163,7 @@ const Navbar = () => {
 									navigate('/about');
 								}}
 							>
-								Our Legacy
+								Brand
 							</li>
 							<li
 								onClick={() => {
@@ -171,7 +171,7 @@ const Navbar = () => {
 									navigate('/store');
 								}}
 							>
-								Our Collection
+								Category
 							</li>
 							<li
 								onClick={() => {
@@ -179,7 +179,7 @@ const Navbar = () => {
 									navigate('/engagementandbridal');
 								}}
 							>
-								Engagement & Bridal
+								New Born
 							</li>
 							<li
 								onClick={() => {
@@ -187,7 +187,7 @@ const Navbar = () => {
 									navigate('/watches');
 								}}
 							>
-								Watches
+								Kids
 							</li>
 							<li
 								onClick={() => {
@@ -195,7 +195,7 @@ const Navbar = () => {
 									navigate('/media');
 								}}
 							>
-								Media
+								Accessories
 							</li>
 							<li
 								onClick={() => {
@@ -203,7 +203,7 @@ const Navbar = () => {
 									navigate('/contactus');
 								}}
 							>
-								Our Stores
+								Contact Us
 							</li>
 						</ul>
 					</div>
@@ -234,7 +234,7 @@ const Navbar = () => {
 							aria-label='Close'
 							onClick={() => onClickMobileBurger('/about')}
 						>
-							Our Legacy
+							Brand
 						</li>
 						<li
 							className='mobile_nav_link'
@@ -242,7 +242,7 @@ const Navbar = () => {
 							aria-label='Close'
 							onClick={() => onClickMobileBurger('/store')}
 						>
-							Our Collection
+							Category
 						</li>
 						<li
 							className='mobile_nav_link'
@@ -250,7 +250,7 @@ const Navbar = () => {
 							aria-label='Close'
 							onClick={() => onClickMobileBurger('/engagementandbridal')}
 						>
-							Engagement & Bridal
+							New Born
 						</li>
 						<li
 							className='mobile_nav_link'
@@ -258,7 +258,7 @@ const Navbar = () => {
 							aria-label='Close'
 							onClick={() => onClickMobileBurger('/watches')}
 						>
-							Watches
+							Kids
 						</li>
 						<li
 							className='mobile_nav_link'
@@ -266,7 +266,7 @@ const Navbar = () => {
 							aria-label='Close'
 							onClick={() => onClickMobileBurger('/media')}
 						>
-							Media
+							Accessories
 						</li>
 						<li
 							className='mobile_nav_link'
@@ -274,7 +274,7 @@ const Navbar = () => {
 							aria-label='Close'
 							onClick={() => onClickMobileBurger('/contactus')}
 						>
-							Our Stores
+							Pages
 						</li>
 					</ul>
 				</div>

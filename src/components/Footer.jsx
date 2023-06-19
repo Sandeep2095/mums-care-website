@@ -25,27 +25,33 @@ const Footer = () => {
 								<div className='Footer-logo'>
 									<img src={logo} alt='logoInFooter' />
 								</div>
-								<p className='footer-text my-5'>
-									Welcome to Alankar Jewellers, where luxury and elegance meet to create
-									timeless pieces of jewellery that will last a lifetime. We are proud to
-									present our exquisite collections, featuring beautifully crafted
-									diamond, polki, and gold jewellery, as well as stunning engagement and
-									bridal sets
+								<p className='footer-text my-5 w-75'>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quos
+									voluptas harum vero, officiis, sit magni suscipit mollitia quasi,
+									molestiae dolorum dolorem eos velit dolor?
 								</p>
 							</div>
 
-							<div className='contact col-md-3 col-sm-6 mb-3'>
+							<div className='col-md-3 col-sm-6 mb-3'>
 								<h3 className='footer-h3'>CONTACT US</h3>
 								<div className='footer-reach-us'>
 									<ul>
 										<li>
-											<a href='!#' target='_blank' rel='noopener noreferrer'>
+											<a
+												href='mailto:mumscare.patna@gmail.com'
+												target='_blank'
+												rel='noopener noreferrer'
+											>
 												<EmailIcon style={socialStyle} /> mumscare.patna@gmail.com
 											</a>
 										</li>
 										<li>
-											<a href='!#' target='_blank' rel='noopener noreferrer'>
-												<LocalPhoneIcon style={socialStyle} /> +91 093046 33740
+											<a
+												href='tel:+91930-463-3740'
+												// target='_blank'
+												// rel='noopener noreferrer'
+											>
+												<LocalPhoneIcon style={socialStyle} /> +91 93046 33740
 											</a>
 										</li>
 										<li>
