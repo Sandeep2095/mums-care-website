@@ -2,14 +2,16 @@ import React from 'react';
 import img1 from '../assests/4.webp';
 import img2 from '../assests/5.webp';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Cards = () => {
 	return (
 		<>
-			<div className='container'>
+			<div className='container h-100'>
 				<div className='row py-5'>
 					<div className='col-md-6 mb-4'>
 						<div class='card text-white border border-danger border-5 position-relative'>
-							<img src={img1} class='card-img' alt='cardImage' />
+							<LazyLoadImage src={img1} class='card-img' alt='cardImage' />
 							<div
 								class='card-img-overlay position-absolute h-100 w-50 start-50'
 								style={{ top: '80px' }}
@@ -26,7 +28,7 @@ const Cards = () => {
 					</div>
 					<div className='col-md-6'>
 						<div class='card text-white border border-primary border-5 position-relative'>
-							<img src={img2} class='card-img' alt='cardImage' />
+							<LazyLoadImage src={img2} class='card-img' alt='cardImage' />
 							<div
 								class='card-img-overlay position-absolute h-100 w-50 start-50'
 								style={{ top: '80px' }}
